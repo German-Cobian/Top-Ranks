@@ -54,6 +54,10 @@ li:nth-child(odd) {
   margin: 2rem;
 }
 
+.form-container {
+  height: 300px;
+}
+
 .section-title {
   margin: 1rem;
 }
