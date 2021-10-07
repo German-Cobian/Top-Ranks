@@ -1,6 +1,6 @@
 import './style.css';
-import { getScores, addScore } from './modules/scoresHandle.js';
-import { displayScores } from './modules/createList.js';
+import { getScores, addScore } from './modules/scoresHandle';
+import { displayScores } from './modules/createList';
 
 const submitBtn = document.querySelector('.btn-submit');
 const refreshBtn = document.querySelector('.btn-refresh');
