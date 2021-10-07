@@ -14,12 +14,8 @@ h1 {
   text-align: left;
 }
 
-h2 {
-  font-size: 3rem;
-}
-
-.container-inner,
-.scores-header {
+.container,
+.leaderboard-header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -29,7 +25,7 @@ h2 {
   margin: 0 auto;
 }
 
-.scores-header {
+.leaderboard-header {
   align-items: center;
 }
 
@@ -49,8 +45,8 @@ li:nth-child(odd) {
   background: #d9d9d9;
 }
 
-.recent-scores,
-.add-your-score {
+.leaderboard-container,
+.form-container {
   border: solid 1px #d9d9d9;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
   border-radius: 10px;
@@ -58,7 +54,7 @@ li:nth-child(odd) {
   margin: 2rem;
 }
 
-.recent {
+.section-title {
   margin: 1rem;
 }
 
@@ -70,7 +66,7 @@ li:nth-child(odd) {
 }
 
 main,
-form {
+.score-form {
   display: flex;
   flex-direction: column;
   align-items: center;
