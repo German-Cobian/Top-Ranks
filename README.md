@@ -4,7 +4,7 @@
 
 > A Leaderboard list app, using webpack and ES6 features, notably modules.
 
-![screenshot](./app_scr![Captura de Pantalla 2021-10-07 a la(s) 8 46 10](https://user-images.githubusercontent.com/68709712/136419795-906c386a-b2eb-4e99-bf38-2b929690dbe6.png)
+[Captura de Pantalla 2021-10-07 a la(s) 8 46 10](https://user-images.githubusercontent.com/68709712/136419795-906c386a-b2eb-4e99-bf38-2b929690dbe6.png)
 
 ### Setup and Install
 
