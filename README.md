@@ -4,6 +4,7 @@
 
 > A Leaderboard list app, using webpack and ES6 features, notably modules.
 
+![Captura de Pantalla 2021-10-07 a la(s) 8 46 10](https://user-images.githubusercontent.com/68709712/136419795-906c386a-b2eb-4e99-bf38-2b929690dbe6.png)
 
 ### Setup and Install
 
@@ -14,6 +15,7 @@
 * In the clone folder, run `npm install` and then `npm run build`
 * To fire up the server run `npm start`
 * Visit `http://localhost:8080/` in your browser to get into the app
+* To start the leaderboard with a new game id open the `scoresHandle` folder in the `src` file and change few random characters in the `GAME_URL` between `games/` and `/scores/`.
 
 ## Built With
 
