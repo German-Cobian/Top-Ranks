@@ -4,7 +4,9 @@
 
 > A Leaderboard list app, using webpack and ES6 features, notably modules.
 
-![screenshot](./app_scr![Captura de Pantalla 2021-10-07 a la(s) 8 46 10](https://user-images.githubusercontent.com/68709712/136419795-906c386a-b2eb-4e99-bf38-2b929690dbe6.png)
+![Captura de Pantalla 2021-10-07 a la(s) 8 46 10](https://user-images.githubusercontent.com/68709712/136419795-906c386a-b2eb-4e99-bf38-2b929690dbe6.png)
+
+The app interacts with an API according to the conditions outlined in the following document: https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3#1424377201be406d86c59797186f23db
 
 ### Setup and Install
 
@@ -15,6 +17,7 @@
 * In the clone folder, run `npm install` and then `npm run build`
 * To fire up the server run `npm start`
 * Visit `http://localhost:8080/` in your browser to get into the app
+* To start the leaderboard for a new game open the `scoresHandle` folder in the `src` file and change few random characters in the `GAME_URL` between `games/` and `/scores/`.
 
 ## Built With
 
