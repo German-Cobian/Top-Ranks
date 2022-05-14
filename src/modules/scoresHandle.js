@@ -1,4 +1,4 @@
-const GAME_URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/FikknqvMClk4aTbIr6bb/scores/';
+const GAME_URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/FikknqvMClk4aTbRR6bb/scores/';
 
 export const getScores = async () => {
   const response = await fetch(GAME_URL);
