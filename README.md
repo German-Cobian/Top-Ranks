@@ -4,7 +4,7 @@
 
 An app where users can input their name and purported current score. It makes a call to an API (https://us-central1-js-capstone-backend.cloudfunctions.net/api/) where that information is saved, for this user or for whatever other users may tap into it. 
 
-![Top Ranks](/assets/Top-ranks.png?raw=true "Top Ranks")
+![Top Ranks](/src/assets/Top-ranks.png?raw=true "Top Ranks")
 
 
 ### Setup and Install
