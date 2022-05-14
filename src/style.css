@@ -1,0 +1,96 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: left;
+}
+
+.container,
+.leaderboard-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: left;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+.leaderboard-header {
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  width: auto;
+  align-self: flex-start;
+}
+
+li {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+li:nth-child(odd) {
+  background: #d9d9d9;
+}
+
+.leaderboard-container,
+.form-container {
+  border: solid 1px #d9d9d9;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.form-container {
+  height: 300px;
+}
+
+.section-title {
+  margin: 1rem;
+}
+
+.btn-refresh {
+  font-size: 1.5rem;
+  justify-self: center;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  margin-left: 1.5rem;
+}
+
+main,
+.score-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: space-around;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+input {
+  font-size: 1.5rem;
+  padding: 0.3rem;
+  border: solid 0.3px #d9d9d9;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.btn-submit {
+  font-size: 1.5rem;
+  align-self: flex-end;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
