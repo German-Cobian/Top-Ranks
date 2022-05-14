@@ -1,4 +1,4 @@
-import './style.css';
+import './alternate.css';
 
 const players = document.querySelector('.players');
 const refreshBtn = document.querySelector('.btn-refresh');
